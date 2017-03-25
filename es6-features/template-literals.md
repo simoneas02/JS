@@ -92,11 +92,11 @@ document.body.innerHTML = markup;
 
 <script>
 
-    const learn= "ES6";
-    const wantLearn= "React";
-    const loveTalk= "CSS Grid Layout";
+    const learn = "ES6";
+    const wantLearn = "React";
+    const loveTalk = "CSS Grid Layout";
 
-    //1º parâmetro todo template literal, ou seja as variávis do meu template litera.
+    //1º parâmetro todo template literal, ou seja as variáveis do meu template literal.
     //2º parâmetro estou usando rest que é representado "...values" para representar cada um dos argumentos d meu template (say)
     function green(template, ...values) {
         return template.reduce((acumulator, part, i) => {
@@ -108,8 +108,8 @@ document.body.innerHTML = markup;
         });
     }
 
-    //Usando a função green como una tagged para relizar as alterarções
-    const say= green `I'am learning ${learn} but I want to learn ${ wantLearn} and I love talk about ${loveTalk}`
+    //Usando a função green como una tagged para relizar as alterações
+    const say = green `I'am learning ${learn} but I want to learn ${ wantLearn} and I love talk about ${loveTalk}`
 
     document.body.innerHTML = say;
 

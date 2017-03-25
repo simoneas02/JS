@@ -29,9 +29,10 @@
 [References](references/es6-references.md)
 
 - [ ] [Let]()
-- [x] [Const](es6-features/const.md)
+- [ ] [Const](es6-features/const.md)
 - [x] [Arrow Function ](es6-features/arrow-functions.md)
 - [x] [Template literals](es6-features/template-literals.md)
+- [x] [Shorthand Properties](shorthand-properties.md)
 - [ ] [Default parameters]()
 - [ ] [Rest parameterss]()
 - [ ] [Destructurings]()
