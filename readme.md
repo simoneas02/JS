@@ -30,7 +30,7 @@
 
 - [ ] [Let]()
 - [x] [Const](es6-features/const.md)
-- [x] [Arrow Function ](es6-features/arrow-function.md)
+- [x] [Arrow Function ](es6-features/arrow-functions.md)
 - [x] [Template literals](es6-features/template-literals.md)
 - [ ] [Default parameters]()
 - [ ] [Rest parameterss]()
