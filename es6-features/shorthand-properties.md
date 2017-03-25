@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Template Literal</title>
+    <title>Shorthand Properties</title>
 </head>
 <body>
 </body>
@@ -32,13 +32,13 @@ var skills = {
 
 //ES6 usando Shorthand Properties
 //Se a propriedade e o valor tiverem o mesmo nome só preciso passar a varável
-const skills = {
+const skillsES6 = {
     learn,
     wantLearn,
     loveTalk,
 
 //para declarar uma função não é necessário usar os dois pontos e a palavra function
-    love(){
+    loveES6(){
         console.log(`I love ${skills.learn}!`);
     }
 };

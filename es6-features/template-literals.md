@@ -11,7 +11,7 @@ const skill = {
 //Exemplo de strings com variáveis no método JS Ecma5
 var texto = "Eu quero aprender " + skill.learn + " e " + skill.love
 
-//com Ecma6
+//com ES6
 const literalTexto = `Eu quero aprender + ${skill.learn} e ${skill.love}`
 
 
