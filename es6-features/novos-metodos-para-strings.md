@@ -27,7 +27,8 @@
 
     console.log(love.includes(`love`));
 
-<script>
+</script>
+</html>
 
 ```
 

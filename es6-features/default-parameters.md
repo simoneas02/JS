@@ -20,9 +20,10 @@
     }
 
 //ES6
-    function loveES6(learn = "ES6", read  "about React"){
+    function loveES6(learn = "ES6", read = "about React"){
         console.log(`I love ${learn} and ${read}!`);
     }
 </script>
+</html>
 
 ```

@@ -44,5 +44,6 @@ const skillsES6 = {
 };
 
 </script>
+</html>
 
 ```
