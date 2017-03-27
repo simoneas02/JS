@@ -37,7 +37,7 @@
 - [x] [Novos métodos para Strings](es6-features/novos-metodos-para-strings.md)
 - [x] [Array](es6-features/array.md)
 - [ ] [Rest parameterss]()
-- [ ] [Destructurings]()
+- [x] [Destructurings](es6-features/destructuring.md)
 - [ ] [Class]()
 - [ ] [Módulos]()
 - [ ] [Symbol]()
