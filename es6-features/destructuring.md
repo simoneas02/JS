@@ -45,3 +45,22 @@
     const JS = ["react", "JS6", "polymer"];
     console.log(react, JS6, polymer);
 ```
+## Fazendo swap de variáveis com destructuring
+
+> É possível trocar valores entre variáveis sem criar variável extra (swap de variáveis)
+
+```JS
+    let learn = "JS6";
+    let read = "Coletânea Frtont-end";
+
+    //E5
+    let temp;
+    temp = learn;
+    learn = read;
+    read = temp
+
+    //E6
+    [learn, read] = [read, learn];
+    console.log(read)
+
+```
