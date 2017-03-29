@@ -38,7 +38,7 @@
 - [x] [Array](es6-features/array.md)
 - [ ] [Rest parameterss]()
 - [x] [Destructurings](es6-features/destructuring.md)
-- [x] [Spread Operator](es6-features/spread-operator)
+- [x] [Spread Operator](es6-features/spread-operator.md)
 - [ ] [Class]()
 - [ ] [Módulos]()
 - [ ] [Symbol]()
