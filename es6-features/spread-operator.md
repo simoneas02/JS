@@ -34,3 +34,18 @@
     let tasks = [...JS, "Vue", ...read];
     console.log(tasks); 
 ```
+
+## Usando Spread  dentro de funções
+
+> Podemos usar o spread para desmembrar os elementos e repassar como argumentos em uma função, posicionando cada valor relacionado ao parâmetro da função.
+
+```JS
+    function tasksWork(skill, audio, read) {
+        console.log(`You learned today ${skill}, ${audio} and ${read}!`)
+    }
+
+    const planDay = ["JS", "ZOFE", "O Programador Apaixonado"];
+
+    //Usando o spread(...) cada valor do array planDay será repassado como parâmetro na função tasksWork.
+    tasksWork(...planDay);
+```
