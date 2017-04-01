@@ -26,6 +26,8 @@
 
 ## ES6 features
 
+> As anotações desse módulo são um breve resumo de estudos do [Curso JS com TDD na Prática e Novidades](https://willianjusten.com.br/js-com-tdd-na-pratica-e-novidades/) do [Willian Justen](https://github.com/willianjusten/es6-curso).
+
 [References](references/es6-references.md)
 
 - [ ] [Let]()
@@ -39,7 +41,7 @@
 - [x] [Destructurings](es6-features/destructuring.md)
 - [x] [Spread Operator](es6-features/spread-operator.md)
 - [x] [Rest parameters](es6-features/rest-parameters.md)
-- [ ] [Promises](es6-features/promises.md)
+- [x] [Promises](es6-features/promises.md)
 - [ ] [Class]()
 - [ ] [Módulos]()
 - [ ] [Symbol]()

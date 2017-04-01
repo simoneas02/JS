@@ -2,11 +2,11 @@
 
 ## Introdução a Promises
 
-> É um objeto com uma ação que será realizada no futuro, ela facilita bastante fazer o tratamento de dados assíncrono.
+> É um objeto que contém uma ação programada para ser executada no futuro. Promises facilita bastante fazer o tratamento de dados assíncronos.
 
 ```JS
     //Criando objetos com promises
-    const tasks = new Promise((resolve, seject) => {
+    const tasks = new Promise((resolve, reject) => {
         setTimeout(() => {
             if(true) {
                 resolve("You is learning JS");
@@ -23,5 +23,5 @@
             return "foo";
         })
         .then((data) => console.log(data))
-        .catch((err) => console.log(data));
+        .catch((err) => console.log(err));
 ```
