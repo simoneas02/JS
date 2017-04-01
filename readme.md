@@ -39,12 +39,13 @@
 - [x] [Destructurings](es6-features/destructuring.md)
 - [x] [Spread Operator](es6-features/spread-operator.md)
 - [x] [Rest parameters](es6-features/rest-parameters.md)
+- [ ] [Promises](es6-features/promises.md)
 - [ ] [Class]()
 - [ ] [Módulos]()
 - [ ] [Symbol]()
 - [ ] [Iterators]()
 - [ ] [Generators]()
-- [ ] [Promises]()
+
 
 ## Web
 
