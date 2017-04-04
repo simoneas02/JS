@@ -9,7 +9,7 @@
     const tasks = new Promise((resolve, reject) => {
         setTimeout(() => {
             if(true) {
-                resolve("You is learning JS");
+                resolve("You're learning JS");
             } else {
                 reject("Error!");
             }
