@@ -44,7 +44,7 @@
 - [x] [Promises](es6-features/promises.md)
 - [x] [Class](es6-features/class.md)
 - [x] [Symbol](es6-features/symbol.md)
-- [ ] [Iterators]()
+- [x] [Iterators/Iterables](es6-features/iterators-iterables.md)
 - [ ] [Generators]()
 - [ ] [Módulos]()
 
