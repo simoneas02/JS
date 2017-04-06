@@ -43,11 +43,10 @@
 - [x] [Rest parameters](es6-features/rest-parameters.md)
 - [x] [Promises](es6-features/promises.md)
 - [x] [Class](es6-features/class.md)
-- [ ] [Módulos]()
-- [ ] [Symbol]()
+- [x] [Symbol](es6-features/symbol.md)
 - [ ] [Iterators]()
 - [ ] [Generators]()
-
+- [ ] [Módulos]()
 
 ## Web
 
