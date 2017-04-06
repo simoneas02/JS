@@ -45,7 +45,7 @@
 - [x] [Class](es6-features/class.md)
 - [x] [Symbol](es6-features/symbol.md)
 - [x] [Iterators/Iterables](es6-features/iterators-iterables.md)
-- [ ] [Generators]()
+- [x] [Generators](es6-features/generators.md)
 - [ ] [Módulos]()
 
 ## Web
