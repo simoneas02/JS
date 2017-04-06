@@ -42,7 +42,7 @@
 - [x] [Spread Operator](es6-features/spread-operator.md)
 - [x] [Rest parameters](es6-features/rest-parameters.md)
 - [x] [Promises](es6-features/promises.md)
-- [ ] [Class]()
+- [x] [Class](es6-features/class.md)
 - [ ] [Módulos]()
 - [ ] [Symbol]()
 - [ ] [Iterators]()

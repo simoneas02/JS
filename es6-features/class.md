@@ -36,7 +36,7 @@
 
         allDay() {
             console.log(`I'm studying ${this.skill} in the ${this.place}`)
-        }
+        };
 
         static info() {
             console.log(`This is a class for create study list`);
@@ -56,4 +56,35 @@
 
     JS.allDay()
     react.allDay()
+```
+
+## Usando extended classes
+
+```JS
+    //class
+    class Studying {
+        constructor(skill) {
+            this.skill = skill;
+        };
+
+        allDay() {
+            console.log(`I'm studying ${this.skill} in the ${this.place}`)
+        };
+    };
+
+    class Polymer extends Studying {
+        constructor(skill, place){
+            super(skill);
+            this.place = place;
+        };
+
+        local() {
+            console.log(`after work I'm studying ${this.skill} at ${this.place}`);
+        };
+    };
+
+    const polymer = new Polymer("Polymer", "home");
+
+    polymer.local()
+    polymer.allDay()
 ```
