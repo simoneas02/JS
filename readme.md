@@ -47,6 +47,7 @@
 - [x] [Iterators/Iterables](es6-features/iterators-iterables.md)
 - [x] [Generators](es6-features/generators.md)
 - [x] [Proxy](es6-features/proxy.md)
+- [x] [Set](es6-features/set.md)
 - [ ] [Módulos]()
 
 ## Web
