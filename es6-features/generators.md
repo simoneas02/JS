@@ -12,8 +12,6 @@
         yield "Polymer";
     };
 
-    //podemos usar uma condicional pra informar um certo ponto onde a função deve parar a execução.
     const skills = genSkills();
- 
     console.log(skills.next());
 ```
