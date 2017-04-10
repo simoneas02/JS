@@ -31,3 +31,31 @@
     //podemos usar também o next()
     console.log(it.next());
 ```
+
+## Introdução ao WeakSet
+
+> Tem a mesma função do set, mas só aceita valores que sejam do tipo Objeto e não é um iterator. Serve para casos onde você quer guardar objetos únicos e que sejam apenas objetos.
+
+```JS
+    let studyMorning = {
+        skill: "JS", 
+        read: "Web Mobile"
+    };
+
+    let studyNigth = {
+        skill: "React", 
+        read: "Ted Talk"
+    };
+
+    let ws = new WeakSet([studyMorning, studyNigth]);
+
+    //consultar se o objeto existe
+    ws.has(studyMorning);
+
+    //adicionando novos objetos
+    ws.add({skill: "polymer"});
+
+    //deletando um objeto
+    ws.delete(studyNigth);
+
+```

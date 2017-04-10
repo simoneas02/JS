@@ -48,7 +48,8 @@
 - [x] [Generators](es6-features/generators.md)
 - [x] [Proxy](es6-features/proxy.md)
 - [x] [Set](es6-features/set.md)
-- [ ] [Módulos]()
+- [x] [Map](es6-features/map.md)
+- [ ] [Módulos](es6-features/modulos.md)
 
 ## Web
 

@@ -11,7 +11,7 @@
     //Transforma a string "react" em um array, onde cada letra será um índice, se remover os colchetes, é apresentado um simples texto com letras separadas por espaços.
     console.log([..."react"]);
 
-    //Transforma o aray em stings simples, onde cada valor de "JS" será um texto.
+    //Transforma o array em stings simples, onde cada valor de "JS" será um texto.
     console.log(...JS);
 
     //ES5
