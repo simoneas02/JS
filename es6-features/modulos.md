@@ -89,7 +89,7 @@
         }
     }
 ```
-8. Crie um arquivo `.gitigonore` e inclua nele as pastas/arquivos que você não quer que subam para o git, no nosso caso estamos a dicionando a pasa `node_modules/`
+8. Crie um arquivo `.gitignore` e inclua nele as pastas/arquivos que você não quer que subam para o git, no nosso caso estamos a dicionando a pasa `node_modules/`
 
 9. No um arquivo `package.json` configure os scripts conforme abaixo e depois execute no terminal `npm run build -- --watch` </br>
 PS.: Você precisa está dentro da pasta onde criou o projeto.

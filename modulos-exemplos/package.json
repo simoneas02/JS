@@ -2,12 +2,11 @@
   "name": "modulos-exemplos",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --colors --progress",
     "watch": "npm run build -- --watch"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
