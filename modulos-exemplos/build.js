@@ -11652,6 +11652,13 @@ module.exports = _curry3(function zipWith(fn, a, b) {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ramda__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ramda___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_ramda__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(310);
+
+// importando método da biblioteca ramda
+// * --> carrega tudo da lib
+// as --> alias para o método (novo nome)
+
+
 
 
 var arr1 = [1, 1, 1, 2, 2, 2, 3, 4, 5, 6];
@@ -11662,6 +11669,61 @@ var arr4 = __WEBPACK_IMPORTED_MODULE_0_ramda__["uniq"](arr1);
 
 console.log(arr3);
 console.log(arr1);
+
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["a" /* default */])(20, 10));
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["b" /* sub */])(20, 10));
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["c" /* multiplicacao */])(20, 10));
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["d" /* div */])(20, 10));
+console.log(__WEBPACK_IMPORTED_MODULE_1__utils__["e" /* PI */]);
+
+/***/ }),
+/* 310 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["b"] = sub;
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return mult; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return div; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return PI; });
+function sum(a, b) {
+    return a + b;
+}
+
+// método principal
+// só pode ter um default por arquivo
+// pode ser importado com qualquer nome
+// não precisar ser chamado com as chaves
+/* harmony default export */ __webpack_exports__["a"] = sum;
+
+/*--------------------------------*/
+
+function sub(a, b) {
+    return a - b;
+}
+
+// named export
+// permite ter vários exports dentro de um mesmo arquivo
+// só pode chamar com o mesmo nome 
+// o import precisa das chaves { sub }
+
+/*--------------------------------*/
+
+function mult(a, b) {
+    return a * b;
+}
+
+function div(a, b) {
+    return a / b;
+}
+
+var PI = 3.14;
+
+
+
+// named export
+// permite ter vários exports dentro de um mesmo arquivo
+// só pode chamar com o mesmo nome 
+// o import precisa das chaves { sub }
 
 /***/ })
 /******/ ]);
