@@ -12,8 +12,14 @@
 2. `npm install --save-dev webpack@beta babel-loader babel-core babel-preset-es2015-native-modules` - Para instalar os pacotes.
 3. `./node_modules/.bin/webpack --help` - Para consultar os comandos disponíveis do webpack.
 4. `npm install --save-dev ramda` - Para instalar a biblioteca ramda que iremos usar como exemplo de `import/ export` 
-5. Crie um arquivo app.js com os dados abaixo:
-    > Importando todos os métodos da lib ramda
+
+
+## Imports no ES6
+
+> Serve para importar uma variável ou um método de uma lib para dentro do seu projeto.
+
+1. Crie um arquivo app.js com os dados abaixo:
+> Importando todos os métodos da lib ramda
 ```JS
     // import método from 'biblioteca';
     // * => carrega tudo da lib
@@ -29,7 +35,9 @@
     console.log(arr3);
     console.log(arr4);
 ```
-    > Importando um método específico da lib ramda, posso adicionar alias também ao método `{ union as unifica }`, posso chamar mais de um método específico ao mesmo tempo `{ union, uniq }`
+
+> Importando um método específico da lib ramda, posso adicionar alias também ao método `{ union as unifica }`, posso chamar mais de um método específico ao mesmo tempo `{ union, uniq }`
+
 ```JS
     // import método from 'biblioteca';
     // { nome_do_metodo } => carrega apenas o método especificado da lib
@@ -44,7 +52,7 @@
     console.log(arr3);
 ```
 
-6. Crie um arquivo index.html com os dados abaixo:
+2. Crie um arquivo index.html com os dados abaixo:
 
 ```HTML
     <!DOCTYPE html>
@@ -61,7 +69,7 @@
     </html>
 ```
 
-7. Crie um arquivo `webpack.config.js` com as configurações abaixo:
+3. Crie um arquivo `webpack.config.js` com as configurações abaixo:
 
 ```JS
     const webpack = require('webpack');
@@ -89,9 +97,9 @@
         }
     }
 ```
-8. Crie um arquivo `.gitignore` e inclua nele as pastas/arquivos que você não quer que subam para o git, no nosso caso estamos a dicionando a pasa `node_modules/`
+4. Crie um arquivo `.gitignore` e inclua nele as pastas/arquivos que você não quer que subam para o git, no nosso caso estamos a dicionando a pasa `node_modules/`
 
-9. No um arquivo `package.json` configure os scripts conforme abaixo e depois execute no terminal `npm run build -- --watch` </br>
+5. No um arquivo `package.json` configure os scripts conforme abaixo e depois execute no terminal `npm run build -- --watch` </br>
 PS.: Você precisa está dentro da pasta onde criou o projeto.
 
 ```JSON
@@ -99,4 +107,68 @@ PS.: Você precisa está dentro da pasta onde criou o projeto.
         "build": "./node_modules/.bin/webpack --colors --progress",
         "watch": "npm run build -- --watch"
     },
+```
+
+## Exports no ES6
+
+> Serve para exportar uma variável ou um método para que outros arquivos possam utilizar.
+
+1. Crie um arquivo `utils.js` com os dados abaixo, será a biblioteca com métodos e variáveis que serão reutilizadas em outros arquivos.
+
+```JS
+    function sum(a, b) {
+    return a + b;
+    }
+
+    // método principal
+    // só pode ter um default por arquivo
+    // pode ser importado com qualquer nome
+    // não precisar ser chamado com as chaves
+    export default sum;
+
+    /*--------------------------------*/
+
+    export function sub(a, b) {
+        return a - b;
+    }
+
+    // named export
+    // permite ter vários exports dentro de um mesmo arquivo
+    // só pode chamar com o mesmo nome 
+    // o import precisa das chaves { sub }
+
+    /*--------------------------------*/
+
+    function mult(a, b) {
+        return a * b;
+    }
+
+    function div(a, b) {
+        return a / b;
+    }
+
+    const PI = 3.14;
+
+    export { mult as multiplicacao, div, PI };
+
+    // named export
+    // permite ter vários exports dentro de um mesmo arquivo
+    // só pode chamar com o mesmo nome 
+    // o import precisa das chaves { sub }
+
+```
+
+2. Adicione os dados abaixo em app.js, para que possamos reutilizar os métodos/ variável do arquivo utils.JS
+
+```JS
+    
+    // importando métodos/variável de utils.JS
+    import sum, { sub, multiplicacao, div as dividir, PI } from './utils';
+
+    // usando os métodos/variável de utils.JS
+    console.log(sum(20, 10))
+    console.log(sub(20, 10))
+    console.log(multiplicacao(20, 10))
+    console.log(dividir(20, 10))
+    console.log(PI)
 ```
