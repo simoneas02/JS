@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --colors --progress",
-    "watch": "npm run build -- --watch"
+    "watch": "npm run build -- --watch",
+    "server": "./node_modules/.bin/webpack-dev-server --inline --open"
   },
   "author": "",
   "license": "ISC",
@@ -14,7 +15,8 @@
     "babel-loader": "^6.4.1",
     "babel-preset-es2015-native-modules": "^6.9.4",
     "ramda": "^0.23.0",
-    "webpack": "^2.2.0"
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.4.2"
   },
   "dependencies": {
     "react": "^15.5.4",
