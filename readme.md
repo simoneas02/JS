@@ -49,7 +49,7 @@
 - [x] [Proxy](es6-features/proxy.md)
 - [x] [Set](es6-features/set.md)
 - [x] [Map](es6-features/map.md)
-- [ ] [Módulos](es6-features/modulos.md)
+- [x] [Módulos](es6-features/modulos.md)
 
 ## Web
 
@@ -62,5 +62,7 @@ Service Workers
 [References](references/module-bundler.md)
 
 ## Tests
-
 [References](references/tests.md)
+
+- [x] [Mocha(describe, context e it)](tdd-exemplos/exemplos/mocha.md)
+- [x] [Mocha(skip, only e bail)](tdd-exemplos/exemplos/skip-only-bail.md)
