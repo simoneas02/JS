@@ -64,5 +64,5 @@ Service Workers
 ## Tests
 [References](references/tests.md)
 
-- [x] [Mocha(describe, context e it)](tdd-exemplos/exemplos/mocha.md)
-- [x] [Mocha(skip, only e bail)](tdd-exemplos/exemplos/skip-only-bail.md)
+- [x] [Mocha(describe, context e it)](tdd-features/describe-context-it.md)
+- [x] [Mocha(skip, only e bail)](tdd-features/skip-only-bail.md)
