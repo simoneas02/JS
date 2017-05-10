@@ -66,3 +66,5 @@ Service Workers
 
 - [x] [Mocha(describe, context e it)](tdd-features/describe-context-it.md)
 - [x] [Mocha(skip, only e bail)](tdd-features/skip-only-bail.md)
+- [x] [Hooks](tdd-features/hooks.md)
+- [x] [Métodos do Chai](tdd-features/metodos-chai.md)

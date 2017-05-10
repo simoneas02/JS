@@ -1,4 +1,4 @@
-# Introdução aos Hoocks
+# Introdução aos Hooks
 
 > Hooks servem para não criar dependência entre os testes sem importância da ordem, gerando um ambiente limpo para os demais testes
 
