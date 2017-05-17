@@ -68,3 +68,6 @@ Service Workers
 - [x] [Mocha(skip, only e bail)](tdd-features/skip-only-bail.md)
 - [x] [Hooks](tdd-features/hooks.md)
 - [x] [Métodos do Chai](tdd-features/metodos-chai.md)
+- [x] [Smoke Tests](tdd-features/smoke-test.md)
+- [x] [Testes de uma calculadora simples](tdd-features/calc-tdd.md)
+- [x] [Desafio FizzBuzz](tdd-features/desafio-fizz-buzz.md)
