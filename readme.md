@@ -71,3 +71,4 @@ Service Workers
 - [x] [Smoke Tests](tdd-features/smoke-test.md)
 - [x] [Testes de uma calculadora simples](tdd-features/calc-tdd.md)
 - [x] [Desafio FizzBuzz](tdd-features/desafio-fizz-buzz.md)
+- [x] [Code Coverage](tdd-features/code-coverage.md)
