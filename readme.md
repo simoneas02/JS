@@ -4,25 +4,25 @@
 
 ## Javascript básico
 
-[References](references/js-basico.md)
+[References](#)
 
-- [ ] [Estrutura léxica]()
-- [ ] [Tipos, valores e variáveis]()
-- [ ] [Expressões e operadores]()
-- [ ] [Instruções]()
-- [ ] [Objetos]()
-- [ ] [Arrays]()
-- [ ] [Funções]()
-- [ ] [Expressões Regulares]()
-- [ ] [Strict mode]()
+- [ ] [Estrutura léxica](#)
+- [ ] [Tipos, valores e variáveis](#)
+- [ ] [Expressões e operadores](#)
+- [ ] [Instruções](#)
+- [ ] [Objetos](#)
+- [ ] [Arrays](#)
+- [ ] [Funções](#)
+- [x] [Expressões Regulares](js-basic/regex.md)
+- [ ] [Strict mode](#)
 
 ## Javascript avançado
 
 [References](references/js-avancado.md)
 
-- [ ] [Prototype e herança]()
-- [ ] [Garbage collector]()
-- [ ] [Concurrency model and Event Loop]()
+- [ ] [Prototype e herança](#)
+- [ ] [Garbage collector](#)
+- [ ] [Concurrency model and Event Loop](#)
 
 ## ES6 features
 
