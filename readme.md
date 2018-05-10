@@ -14,7 +14,7 @@
 - [ ] [Arrays](#)
 - [ ] [Funções](#)
 - [x] [Expressões Regulares](js-basic/regex.md)
-- [ ] [Strict mode](#)
+- [x] [Strict mode](js-basic/strict-mode.md)
 
 ## Javascript avançado
 
