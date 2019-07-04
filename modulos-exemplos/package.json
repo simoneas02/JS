@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "babel-core": "6.26.3",
-    "babel-loader": "6.4.1",
+    "babel-loader": "8.0.6",
     "babel-preset-es2015-native-modules": "6.9.4",
     "ramda": "0.23.0",
     "webpack": "2.7.0",
